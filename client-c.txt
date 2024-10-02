@@ -1,4 +1,6 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+For this project, a robot needs to count the items it has moved. But each unit it moves is two items.
+Let's have the robot connect wirelessly to the counting and controlling machine.  It uses a camera and advanced software to recognize the desired item and starts the operation by selecting an empty pallet from a stack made by humans and placing it on an empty floor spot. It can recognize and grasp packages by virtue of its sensors and robotic appendages. It grabs units from a storage location as directed and registers each unit as x2. when its count reaches =50, it generates a message for the humans to take the pallet away. Its cameras enable it to perceive if there is sufficient empty floor space to begin again and also causes it to pause operation if it detects motion in its proximity that it did not initiate and remains paused until a human instructs it to proceed again via the wireless interface.
 

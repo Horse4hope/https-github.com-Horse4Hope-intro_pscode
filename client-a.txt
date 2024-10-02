@@ -1,4 +1,13 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+A project to have a player guess a number between 1 and ten. the computer generates a random number each play. the player has three tries.
+
+Let's start with printing, "Hello, would you like to play a game? Yes or no?" there is also an imput box
+the response yes will launch a random number generator generating an integer between 1 and ten.
+it will also launch a dialog box that prints "1st try" and contains an input box
+if the players response is true to the randomly generated integer, cgi fireworks erupt on screen; if false a new dialog box opens print enclosed "two tries left" 
+if the players response is true to the randomly generated integer, cgi fireworks erupt on screen; if false a new dialog box opens print enclosed "last try" 
+if the players response is true to the randomly generated integer, cgi fireworks erupt on screen; if false a new dialog box opens print enclosed "thank you for trying, please try again with a brand new number to guess!" 
+
 

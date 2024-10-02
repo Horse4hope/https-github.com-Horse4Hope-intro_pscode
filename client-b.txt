@@ -2,3 +2,9 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+This is a project to guide a person to a pre-set location in a situation where they are only allowed to move in the four cardinal directions, as though they are in a warehouse or pac-man.
+Let's have them have access to a sensor which tells their handheld guidance device where they are which knows their target location as it was programmed into it by the staff that issued it to our traveler.
+
+If the traveler moves farther from the target in any direction, it should print or say, "Reverse Course"
+If they are moving closer, it should display and say  the distance and direction of the next turn to complete the trip with the fewest steps. If there is no movement for a period of greater than 30 seconds it should query if the traveler is ok and if the response is no or void, should contact support staff with its current location and best directions to it. If the response is yes, it should print and say, "please keep moving, as my battery life is finite"
+Upon arriving at the destination, it should utilize similar operations to get the traveler back to the start point.
